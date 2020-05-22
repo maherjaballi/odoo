@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-         git branch: '10.0', credentialsId: '571e0fd7-2841-4c22-ada6-92cf2febc352', url: 'https://github.com/maherjaballi/odoo.git'
+         git branch: '12.0', credentialsId: '571e0fd7-2841-4c22-ada6-92cf2febc352', url: 'https://github.com/maherjaballi/odoo.git'
       }
     }
     stage('Build') {
